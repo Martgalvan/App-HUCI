@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/menu1">
+    <menu>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/label_inicio">
+        </item>
+        <item
+            android:id="@+id/people"
+            android:icon="@drawable/ic_group"
+            android:title="@string/label_estado">
+        </item>
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/label_info">
+        </item>
+    </menu>
+
+</item>
+    <item android:title="@string/menu2">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_login"
+                android:title="@string/label_login">
+            </item>
+        </menu>
+
+    </item>
+</menu>

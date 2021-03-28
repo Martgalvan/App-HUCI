@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AppHUCI</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+
+
+    <!-- Navbar header text -->
+    <string name="navbar_header">HUCI Hospital Sureste</string>
+
+    <!-- Navbar menu strings -->
+    <string name="label_inicio">Inicio</string>
+    <string name="label_estado">Estado HUCI</string>
+    <string name="label_info">Información</string>
+    <string name="label_login">Login/Register</string>
+
+    <!-- Navbar menu strings -->
+    <string name="menu1">Principal</string>
+    <string name="menu2">Inicio Sesión</string>
+
+    <!-- fragment_text -->
+    <string name="text_inicio">Este es el fragmento de Inicio</string>
+    <string name="text_estado">Este es el fragmento de Estado HUCI</string>
+    <string name="text_login">Este es el fragmento de Login</string>
+    <string name="text_info">Este es el fragmento de Información</string>
+
+    <!-- Login -->
+    <string name="user_hint">Usuario</string>
+    <string name="pwd_hint">Contraseña</string>
+    <string name="loginButton_text">Inicio Sesión</string>
+    <string name="registerButton_text">Registro</string>
+    <string name="text">El ingreso de una persona en la Unidad de Cuidados Intensivos se debe a que el paciente precisa vigilancia o tratamiento especificos. desde el Hospital del Suresete
+queremos acercarte a tu familiar y humanizar el proceso. A través de esta app podrás conocer diferentes datos sobre tu familiar que se encuentra ingresado.</string>
+
+
+</resources>

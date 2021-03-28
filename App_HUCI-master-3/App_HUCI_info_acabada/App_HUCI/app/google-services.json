@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966378533579",
+    "project_id": "apphuci",
+    "storage_bucket": "apphuci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966378533579:android:bd4a4fea0c1ce90dc1214e",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawerfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966378533579-0llorb6rbms39ius4vqj2kv65lookn27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEc085-keGHoFSldXkaFTb1AGf6h49PTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966378533579-0llorb6rbms39ius4vqj2kv65lookn27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

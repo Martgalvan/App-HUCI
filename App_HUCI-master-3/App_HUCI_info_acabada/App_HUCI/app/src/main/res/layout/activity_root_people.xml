@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RootPeopleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonBed"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="CAMA 1" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado:" />
+
+        <TextView
+            android:id="@+id/textBedState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonState1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Estado 1"
+                android:textColor="@color/white"
+                app:backgroundTint="#4CAF50" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonState2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Estado 2"
+                android:textColor="@color/white"
+                app:backgroundTint="#E8D317" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonState3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Estado 3"
+                android:textColor="@color/white"
+                app:backgroundTint="#F44336" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextNumberBed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Número de cama"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonSwitchBed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Cama" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
